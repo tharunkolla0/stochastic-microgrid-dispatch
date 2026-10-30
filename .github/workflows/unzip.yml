@@ -1,0 +1,22 @@
+name: Unzip project
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract and commit
+        run: |
+          mkdir /tmp/x
+          for z in *.zip; do unzip -q "$z" -d /tmp/x; done
+          rm -f *.zip
+          shopt -s dotglob
+          cp -r /tmp/x/*/* .
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Extract project files"
+          git push
