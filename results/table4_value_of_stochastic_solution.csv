@@ -1,0 +1,12 @@
+metric,value
+"Stochastic expected daily cost (out-of-sample, N=2000)",33548.26
+"Deterministic expected daily cost (EEV, out-of-sample)",34043.15
+VSS = EEV - RP (INR/day saved),494.89
+VSS 95% bootstrap CI lower,450.39
+VSS 95% bootstrap CI upper,541.36
+VSS as % of deterministic cost,1.45
+Share of days stochastic plan is cheaper (%),63.3
+Wait-and-see expected cost (N=500),30137.94
+"EVPI = RP - WS (INR/day, N=500)",3280.88
+In-sample SAA objective (S=300),33499.42
+Annual saving from VSS (INR/yr),180636.5

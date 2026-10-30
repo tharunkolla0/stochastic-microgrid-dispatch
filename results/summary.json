@@ -1,0 +1,698 @@
+{
+  "data": {
+    "pv_load_corr": 0.6729550730514987,
+    "pv_cv": 0.36024556469971886,
+    "load_cv": 0.06975412588534521,
+    "pv_share_of_load": 0.40275316126901606,
+    "stats": [
+      {
+        "weather_state": "Sunny",
+        "days": 383,
+        "share_pct": 52.47,
+        "pv_kwh_mean": 3793.44,
+        "pv_kwh_std": 274.2,
+        "load_kwh_mean": 7698.92,
+        "peak_load_mean": 436.73
+      },
+      {
+        "weather_state": "Partly cloudy",
+        "days": 227,
+        "share_pct": 31.1,
+        "pv_kwh_mean": 2572.6,
+        "pv_kwh_std": 681.12,
+        "load_kwh_mean": 7238.78,
+        "peak_load_mean": 409.74
+      },
+      {
+        "weather_state": "Overcast",
+        "days": 120,
+        "share_pct": 16.44,
+        "pv_kwh_mean": 1170.83,
+        "pv_kwh_std": 461.91,
+        "load_kwh_mean": 6785.98,
+        "peak_load_mean": 385.87
+      },
+      {
+        "weather_state": "ALL DAYS",
+        "days": 730,
+        "share_pct": 100.0,
+        "pv_kwh_mean": 2982.69,
+        "pv_kwh_std": 1075.24,
+        "load_kwh_mean": 7405.76,
+        "peak_load_mean": 419.98
+      }
+    ]
+  },
+  "main": {
+    "x_sto": [
+      237.44721408011563,
+      217.2153233442237,
+      209.85144071781255,
+      204.35987192541893,
+      208.9794781494572,
+      323.4901350610494,
+      186.10077008802625,
+      137.78944022945228,
+      76.22437605185385,
+      14.693037114322124,
+      38.52744730877953,
+      17.245743739406585,
+      30.1415096222168,
+      51.552249038183334,
+      97.68708469672032,
+      173.16583012005503,
+      259.1876436152791,
+      370.51581665275927,
+      270.5240123535383,
+      271.0502516649666,
+      272.15337949430494,
+      300.04512580601937,
+      424.55323462338174,
+      389.89226566931313
+    ],
+    "x_det": [
+      193.76863013698636,
+      183.65109589041086,
+      178.5864383561644,
+      359.34945801072035,
+      178.52972602739715,
+      393.74821917808214,
+      188.18410958904087,
+      143.99684931506889,
+      96.55616438356137,
+      44.18109589041086,
+      0.0,
+      0.0,
+      0.0,
+      6.508219178083095,
+      64.98753424657508,
+      145.09383561643787,
+      237.53712328767114,
+      341.86575342465756,
+      203.4289041095887,
+      218.31000000000012,
+      345.6216438356157,
+      166.51726027397274,
+      450.0,
+      402.85526503871336
+    ],
+    "sto": {
+      "mean": 33548.25775190817,
+      "std": 6248.719846304083,
+      "p50": 30946.198194107994,
+      "p95": 46995.60896938358,
+      "max": 63256.51708592406,
+      "cvar90": 47641.25402899004
+    },
+    "det": {
+      "mean": 34043.15227946259,
+      "std": 7016.842590394033,
+      "p50": 31503.530467308476,
+      "p95": 48527.59150411697,
+      "max": 65091.96748549708,
+      "cvar90": 49184.2769649704
+    },
+    "VSS": 494.8945275544215,
+    "VSS_ci": [
+      450.39246376148225,
+      541.3558632772964
+    ],
+    "VSS_pct": 1.4537270916976137,
+    "EVPI": 3280.8797256671546,
+    "WS": 30137.943282276796,
+    "share_win": 0.633,
+    "obj_in": 33499.41637216878,
+    "annual": 180636.50255736383,
+    "met_sto": {
+      "mean_cost": 33548.257751908175,
+      "std": 6248.719846304083,
+      "p50": 30946.198194107994,
+      "p95": 46995.60896938358,
+      "cvar90": 47641.25402899004,
+      "da_kwh": 4782.392681166655,
+      "rt_kwh": 250.44776345988654,
+      "resold_kwh": 535.6104702788573,
+      "curtailed_kwh": 0.0,
+      "shed_kwh": 0.0,
+      "lolp_pct": 0.0,
+      "net_import_kwh": 4497.229974347684,
+      "co2_kg": 3193.0332817868557
+    },
+    "met_det": {
+      "mean_cost": 34043.15227946259,
+      "std": 7016.842590394033,
+      "p50": 31503.530467308476,
+      "p95": 48527.59150411697,
+      "cvar90": 49184.2769649704,
+      "da_kwh": 4543.277325789159,
+      "rt_kwh": 404.81824252632623,
+      "resold_kwh": 431.65684666356725,
+      "curtailed_kwh": 0.0,
+      "shed_kwh": 0.0,
+      "lolp_pct": 0.0,
+      "net_import_kwh": 4516.438721651917,
+      "co2_kg": 3206.671492372861
+    }
+  },
+  "by_weather": [
+    {
+      "weather_state": "Sunny",
+      "days": 1044,
+      "cost_det": 29968.84,
+      "cost_sto": 29857.55,
+      "saving": 111.29,
+      "shed_det": 0.0,
+      "shed_sto": 0.0
+    },
+    {
+      "weather_state": "Partly cloudy",
+      "days": 628,
+      "cost_det": 35024.8,
+      "cost_sto": 34442.98,
+      "saving": 581.81,
+      "shed_det": 0.0,
+      "shed_sto": 0.0
+    },
+    {
+      "weather_state": "Overcast",
+      "days": 328,
+      "cost_det": 45131.9,
+      "cost_sto": 43582.44,
+      "saving": 1549.46,
+      "shed_det": 0.0,
+      "shed_sto": 0.0
+    }
+  ],
+  "convergence": [
+    {
+      "S": 10,
+      "insample": 33437.53,
+      "oos_model": 34064.95,
+      "oos_true": 33628.19,
+      "oos_true_std": 196.89,
+      "total_purchase_std": 340.51,
+      "optimism_gap": 627.42
+    },
+    {
+      "S": 25,
+      "insample": 33618.94,
+      "oos_model": 33866.68,
+      "oos_true": 33474.55,
+      "oos_true_std": 73.68,
+      "total_purchase_std": 209.37,
+      "optimism_gap": 247.75
+    },
+    {
+      "S": 50,
+      "insample": 33777.94,
+      "oos_model": 33864.36,
+      "oos_true": 33472.46,
+      "oos_true_std": 89.17,
+      "total_purchase_std": 229.99,
+      "optimism_gap": 86.42
+    },
+    {
+      "S": 100,
+      "insample": 33705.7,
+      "oos_model": 33820.41,
+      "oos_true": 33404.64,
+      "oos_true_std": 55.66,
+      "total_purchase_std": 173.74,
+      "optimism_gap": 114.71
+    },
+    {
+      "S": 200,
+      "insample": 33785.44,
+      "oos_model": 33814.35,
+      "oos_true": 33407.69,
+      "oos_true_std": 55.76,
+      "total_purchase_std": 166.64,
+      "optimism_gap": 28.91
+    },
+    {
+      "S": 400,
+      "insample": 33794.78,
+      "oos_model": 33783.67,
+      "oos_true": 33378.83,
+      "oos_true_std": 36.05,
+      "total_purchase_std": 80.49,
+      "optimism_gap": -11.11
+    }
+  ],
+  "cvar": [
+    {
+      "lam": 0.0,
+      "total_da_kwh": 4956.42,
+      "mean_cost": 33623.06,
+      "std": 5757.74,
+      "p95": 46804.93,
+      "cvar90": 47064.79,
+      "max_cost": 59822.56,
+      "shed_kwh": 0.0
+    },
+    {
+      "lam": 0.25,
+      "total_da_kwh": 5684.57,
+      "mean_cost": 34476.34,
+      "std": 3597.54,
+      "p95": 42405.42,
+      "cvar90": 42709.85,
+      "max_cost": 55386.83,
+      "shed_kwh": 0.0
+    },
+    {
+      "lam": 0.5,
+      "total_da_kwh": 5970.71,
+      "mean_cost": 35109.42,
+      "std": 3059.86,
+      "p95": 40801.33,
+      "cvar90": 41493.02,
+      "max_cost": 53704.19,
+      "shed_kwh": 0.0
+    },
+    {
+      "lam": 0.75,
+      "total_da_kwh": 6084.54,
+      "mean_cost": 35400.48,
+      "std": 2893.89,
+      "p95": 40239.46,
+      "cvar90": 41274.24,
+      "max_cost": 53015.62,
+      "shed_kwh": 0.0
+    },
+    {
+      "lam": 0.9,
+      "total_da_kwh": 6140.3,
+      "mean_cost": 35574.64,
+      "std": 2809.97,
+      "p95": 40289.2,
+      "cvar90": 41196.96,
+      "max_cost": 52659.04,
+      "shed_kwh": 0.0
+    }
+  ],
+  "sens": [
+    {
+      "factor": "Overcast-day probability",
+      "value": 0.05,
+      "stoch": 32235.63,
+      "det": 32572.39,
+      "VSS": 336.77,
+      "VSS_pct": 1.03,
+      "std_stoch": 6427.01,
+      "std_det": 6551.4
+    },
+    {
+      "factor": "Overcast-day probability",
+      "value": 0.15,
+      "stoch": 33837.09,
+      "det": 34198.21,
+      "VSS": 361.12,
+      "VSS_pct": 1.06,
+      "std_stoch": 7623.42,
+      "std_det": 7673.76
+    },
+    {
+      "factor": "Overcast-day probability",
+      "value": 0.25,
+      "stoch": 34599.59,
+      "det": 35157.01,
+      "VSS": 557.42,
+      "VSS_pct": 1.59,
+      "std_stoch": 7371.29,
+      "std_det": 7790.27
+    },
+    {
+      "factor": "Overcast-day probability",
+      "value": 0.4,
+      "stoch": 35593.11,
+      "det": 36495.94,
+      "VSS": 902.83,
+      "VSS_pct": 2.47,
+      "std_stoch": 6455.14,
+      "std_det": 7824.23
+    },
+    {
+      "factor": "Weather variability multiplier",
+      "value": 0.0,
+      "stoch": 33034.21,
+      "det": 33430.63,
+      "VSS": 396.42,
+      "VSS_pct": 1.19,
+      "std_stoch": 6383.8,
+      "std_det": 6773.33
+    },
+    {
+      "factor": "Weather variability multiplier",
+      "value": 0.5,
+      "stoch": 33125.01,
+      "det": 33505.03,
+      "VSS": 380.02,
+      "VSS_pct": 1.13,
+      "std_stoch": 6541.04,
+      "std_det": 6807.45
+    },
+    {
+      "factor": "Weather variability multiplier",
+      "value": 1.0,
+      "stoch": 33295.86,
+      "det": 33673.64,
+      "VSS": 377.78,
+      "VSS_pct": 1.12,
+      "std_stoch": 6915.18,
+      "std_det": 7012.63
+    },
+    {
+      "factor": "Weather variability multiplier",
+      "value": 1.5,
+      "stoch": 33524.37,
+      "det": 33924.78,
+      "VSS": 400.4,
+      "VSS_pct": 1.18,
+      "std_stoch": 7136.29,
+      "std_det": 7330.62
+    },
+    {
+      "factor": "Weather variability multiplier",
+      "value": 2.0,
+      "stoch": 33791.14,
+      "det": 34230.21,
+      "VSS": 439.07,
+      "VSS_pct": 1.28,
+      "std_stoch": 7427.28,
+      "std_det": 7701.03
+    },
+    {
+      "factor": "Real-time price multiplier",
+      "value": 1.0,
+      "stoch": 30048.61,
+      "det": 30047.74,
+      "VSS": -0.87,
+      "VSS_pct": -0.0,
+      "std_stoch": 4604.88,
+      "std_det": 4606.37
+    },
+    {
+      "factor": "Real-time price multiplier",
+      "value": 1.5,
+      "stoch": 32275.76,
+      "det": 32537.14,
+      "VSS": 261.37,
+      "VSS_pct": 0.8,
+      "std_stoch": 6174.94,
+      "std_det": 5387.93
+    },
+    {
+      "factor": "Real-time price multiplier",
+      "value": 2.0,
+      "stoch": 33428.39,
+      "det": 33803.02,
+      "VSS": 374.63,
+      "VSS_pct": 1.11,
+      "std_stoch": 6189.17,
+      "std_det": 6897.49
+    },
+    {
+      "factor": "Real-time price multiplier",
+      "value": 3.0,
+      "stoch": 34418.63,
+      "det": 36333.25,
+      "VSS": 1914.62,
+      "VSS_pct": 5.27,
+      "std_stoch": 5595.99,
+      "std_det": 9931.72
+    },
+    {
+      "factor": "Real-time price multiplier",
+      "value": 4.0,
+      "stoch": 34914.6,
+      "det": 38863.44,
+      "VSS": 3948.84,
+      "VSS_pct": 10.16,
+      "std_stoch": 5549.0,
+      "std_det": 12975.22
+    },
+    {
+      "factor": "Battery size (kWh)",
+      "value": 0.0,
+      "stoch": 36032.56,
+      "det": 36179.17,
+      "VSS": 146.62,
+      "VSS_pct": 0.41,
+      "std_stoch": 6814.78,
+      "std_det": 7074.28
+    },
+    {
+      "factor": "Battery size (kWh)",
+      "value": 200.0,
+      "stoch": 34719.13,
+      "det": 35025.5,
+      "VSS": 306.37,
+      "VSS_pct": 0.87,
+      "std_stoch": 6566.54,
+      "std_det": 6828.93
+    },
+    {
+      "factor": "Battery size (kWh)",
+      "value": 400.0,
+      "stoch": 34164.99,
+      "det": 34629.97,
+      "VSS": 464.98,
+      "VSS_pct": 1.34,
+      "std_stoch": 6455.75,
+      "std_det": 6797.88
+    },
+    {
+      "factor": "Battery size (kWh)",
+      "value": 800.0,
+      "stoch": 33498.54,
+      "det": 34010.26,
+      "VSS": 511.72,
+      "VSS_pct": 1.5,
+      "std_stoch": 6361.25,
+      "std_det": 6799.74
+    },
+    {
+      "factor": "Battery size (kWh)",
+      "value": 1200.0,
+      "stoch": 32988.24,
+      "det": 33499.72,
+      "VSS": 511.48,
+      "VSS_pct": 1.53,
+      "std_stoch": 6339.94,
+      "std_det": 6744.29
+    }
+  ],
+  "tornado": [
+    {
+      "parameter": "Load level",
+      "low_minus20": -9807.86,
+      "high_plus20": 10001.16,
+      "swing": 19809.02
+    },
+    {
+      "parameter": "PV capacity",
+      "low_minus20": 3060.49,
+      "high_plus20": -2933.18,
+      "swing": 5993.67
+    },
+    {
+      "parameter": "Battery efficiency",
+      "low_minus20": 1227.69,
+      "high_plus20": -717.85,
+      "swing": 1945.54
+    },
+    {
+      "parameter": "RT price multiplier",
+      "low_minus20": -820.74,
+      "high_plus20": 585.17,
+      "swing": 1405.91
+    },
+    {
+      "parameter": "Export price",
+      "low_minus20": 262.93,
+      "high_plus20": -316.16,
+      "swing": 579.09
+    },
+    {
+      "parameter": "Battery size",
+      "low_minus20": 244.28,
+      "high_plus20": -223.05,
+      "swing": 467.33
+    },
+    {
+      "parameter": "Battery wear cost",
+      "low_minus20": -141.91,
+      "high_plus20": 141.75,
+      "swing": 283.66
+    },
+    {
+      "parameter": "Grid limit",
+      "low_minus20": 130.02,
+      "high_plus20": -5.01,
+      "swing": 135.03
+    },
+    {
+      "parameter": "Value of lost load",
+      "low_minus20": 0.0,
+      "high_plus20": 0.0,
+      "swing": 0.0
+    }
+  ],
+  "tornado_base_cost": 33225.21840913986,
+  "shift": [
+    {
+      "world": "Base (as trained)",
+      "oracle": 32828.98,
+      "stochastic": 32844.0,
+      "deterministic": 33304.0,
+      "regret_stoch": 15.02,
+      "regret_det": 475.02,
+      "det_minus_stoch": 460.0
+    },
+    {
+      "world": "Monsoon-heavy (35 % overcast)",
+      "oracle": 34856.88,
+      "stochastic": 34911.42,
+      "deterministic": 35581.38,
+      "regret_stoch": 54.54,
+      "regret_det": 724.49,
+      "det_minus_stoch": 669.95
+    },
+    {
+      "world": "Clear season (3 % overcast)",
+      "oracle": 31575.92,
+      "stochastic": 31764.32,
+      "deterministic": 32121.5,
+      "regret_stoch": 188.4,
+      "regret_det": 545.58,
+      "det_minus_stoch": 357.18
+    },
+    {
+      "world": "Load +10 %",
+      "oracle": 37994.61,
+      "stochastic": 38810.1,
+      "deterministic": 40346.7,
+      "regret_stoch": 815.49,
+      "regret_det": 2352.09,
+      "det_minus_stoch": 1536.6
+    },
+    {
+      "world": "Load -10 %",
+      "oracle": 28623.54,
+      "stochastic": 29574.26,
+      "deterministic": 29136.52,
+      "regret_stoch": 950.72,
+      "regret_det": 512.98,
+      "det_minus_stoch": -437.75
+    },
+    {
+      "world": "Weather variability x1.5",
+      "oracle": 33621.73,
+      "stochastic": 33606.73,
+      "deterministic": 34138.03,
+      "regret_stoch": -15.0,
+      "regret_det": 516.3,
+      "det_minus_stoch": 531.3
+    }
+  ],
+  "impact": [
+    {
+      "indicator": "Net grid import (kWh/day)",
+      "deterministic": 4516.44,
+      "stochastic": 4497.23,
+      "change": -19.21
+    },
+    {
+      "indicator": "CO2 from grid import (kg/day, EF=0.71)",
+      "deterministic": 3206.67,
+      "stochastic": 3193.03,
+      "change": -13.64
+    },
+    {
+      "indicator": "PV energy curtailed (kWh/day)",
+      "deterministic": 0.0,
+      "stochastic": 0.0,
+      "change": 0.0
+    },
+    {
+      "indicator": "Expected unserved energy (kWh/day)",
+      "deterministic": 0.0,
+      "stochastic": 0.0,
+      "change": 0.0
+    },
+    {
+      "indicator": "Days with any load shedding (%)",
+      "deterministic": 0.0,
+      "stochastic": 0.0,
+      "change": 0.0
+    },
+    {
+      "indicator": "Real-time (expensive) purchases (kWh/day)",
+      "deterministic": 404.82,
+      "stochastic": 250.45,
+      "change": -154.37
+    },
+    {
+      "indicator": "Surplus energy resold at low price (kWh/day)",
+      "deterministic": 431.66,
+      "stochastic": 535.61,
+      "change": 103.95
+    },
+    {
+      "indicator": "Expected energy cost (INR/day)",
+      "deterministic": 34043.15,
+      "stochastic": 33548.26,
+      "change": -494.89
+    }
+  ],
+  "config": {
+    "S_main": 300,
+    "N_test": 2000,
+    "N_ws": 500,
+    "N_hist": 730,
+    "sizes": [
+      10,
+      25,
+      50,
+      100,
+      200,
+      400
+    ],
+    "reps": 12,
+    "EF": 0.71,
+    "system": {
+      "pv_kwp": 600.0,
+      "batt_kwh": 800.0,
+      "batt_kw": 200.0,
+      "eta": 0.92,
+      "grid_kw": 450.0,
+      "rt_premium": 2.0,
+      "sell_price": 3.0,
+      "voll": 60.0,
+      "degr": 1.2
+    },
+    "weather": {
+      "p": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "kappa_mean": [
+        0.88,
+        0.6,
+        0.28
+      ],
+      "kappa_sd": [
+        0.06,
+        0.12,
+        0.1
+      ],
+      "hourly_sd": [
+        0.05,
+        0.25,
+        0.2
+      ]
+    }
+  }
+}

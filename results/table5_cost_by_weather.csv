@@ -1,0 +1,4 @@
+weather_state,days,cost_det,cost_sto,saving,shed_det,shed_sto
+Sunny,1044,29968.84,29857.55,111.29,0.0,0.0
+Partly cloudy,628,35024.8,34442.98,581.81,0.0,0.0
+Overcast,328,45131.9,43582.44,1549.46,0.0,0.0

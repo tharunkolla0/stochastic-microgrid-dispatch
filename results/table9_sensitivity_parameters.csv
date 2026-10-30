@@ -1,0 +1,10 @@
+parameter,low_minus20,high_plus20,swing
+Load level,-9807.86,10001.16,19809.02
+PV capacity,3060.49,-2933.18,5993.67
+Battery efficiency,1227.69,-717.85,1945.54
+RT price multiplier,-820.74,585.17,1405.91
+Export price,262.93,-316.16,579.09
+Battery size,244.28,-223.05,467.33
+Battery wear cost,-141.91,141.75,283.66
+Grid limit,130.02,-5.01,135.03
+Value of lost load,0.0,0.0,0.0

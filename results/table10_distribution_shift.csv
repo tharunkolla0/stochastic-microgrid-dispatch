@@ -1,0 +1,7 @@
+world,oracle,stochastic,deterministic,regret_stoch,regret_det,det_minus_stoch
+Base (as trained),32828.98,32844.0,33304.0,15.02,475.02,460.0
+Monsoon-heavy (35 % overcast),34856.88,34911.42,35581.38,54.54,724.49,669.95
+Clear season (3 % overcast),31575.92,31764.32,32121.5,188.4,545.58,357.18
+Load +10 %,37994.61,38810.1,40346.7,815.49,2352.09,1536.6
+Load -10 %,28623.54,29574.26,29136.52,950.72,512.98,-437.75
+Weather variability x1.5,33621.73,33606.73,34138.03,-15.0,516.3,531.3

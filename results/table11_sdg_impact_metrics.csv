@@ -1,0 +1,9 @@
+indicator,deterministic,stochastic,change
+Net grid import (kWh/day),4516.44,4497.23,-19.21
+"CO2 from grid import (kg/day, EF=0.71)",3206.67,3193.03,-13.64
+PV energy curtailed (kWh/day),0.0,0.0,0.0
+Expected unserved energy (kWh/day),0.0,0.0,0.0
+Days with any load shedding (%),0.0,0.0,0.0
+Real-time (expensive) purchases (kWh/day),404.82,250.45,-154.37
+Surplus energy resold at low price (kWh/day),431.66,535.61,103.95
+Expected energy cost (INR/day),34043.15,33548.26,-494.89

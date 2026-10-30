@@ -1,0 +1,3 @@
+model,mean_cost,std,p50,p95,cvar90,da_kwh,rt_kwh,resold_kwh,curtailed_kwh,shed_kwh,lolp_pct,net_import_kwh,co2_kg
+Deterministic (mean-value),34043.15,7016.84,31503.53,48527.59,49184.28,4543.28,404.82,431.66,0.0,0.0,0.0,4516.44,3206.67
+"Stochastic (SAA, S=300)",33548.26,6248.72,30946.2,46995.61,47641.25,4782.39,250.45,535.61,0.0,0.0,0.0,4497.23,3193.03

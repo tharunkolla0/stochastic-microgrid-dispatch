@@ -1,0 +1,5 @@
+weather_state,days,share_pct,pv_kwh_mean,pv_kwh_std,load_kwh_mean,peak_load_mean
+Sunny,383,52.47,3793.44,274.2,7698.92,436.73
+Partly cloudy,227,31.1,2572.6,681.12,7238.78,409.74
+Overcast,120,16.44,1170.83,461.91,6785.98,385.87
+ALL DAYS,730,100.0,2982.69,1075.24,7405.76,419.98

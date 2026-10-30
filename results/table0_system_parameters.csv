@@ -1,0 +1,12 @@
+parameter,value
+PV capacity (kWp),600.0
+Battery energy (kWh),800.0
+Battery power (kW),200.0
+One-way efficiency,0.92
+Min SOC,0.1
+Grid connection (kW),450.0
+Real-time price multiplier,2.0
+Export / resale price (INR/kWh),3.0
+Value of lost load (INR/kWh),60.0
+Battery wear (INR/kWh),1.2
+DA price min/max (INR/kWh),5.0 / 9.5
